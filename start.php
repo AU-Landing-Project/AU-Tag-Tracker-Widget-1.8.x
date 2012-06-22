@@ -2,7 +2,7 @@
 
 // setup
 function au_tagtracker_init(){
-  elgg_register_widget_type('au_tagtracker', elgg_echo('au_tagtracker'), elgg_echo('au_tagtracker:description'), 'profile,dashboard,groups', TRUE);  
+  elgg_register_widget_type('au_tagtracker', elgg_echo('au_tagtracker'), elgg_echo('au_tagtracker:description'), 'index,profile,dashboard,groups', TRUE);  
 }
 
 

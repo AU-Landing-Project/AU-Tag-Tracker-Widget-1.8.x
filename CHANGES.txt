@@ -1,0 +1,7 @@
+== Version History ==
+
+x.x
+
+1.1 (06/21/2012):
+
+ - Added index context
