@@ -1,6 +1,9 @@
 == Version History ==
 
-x.x
+x.x:
+
+1.2 ():
+ - removed and/or tag usage due to performance issues using 'and'
 
 1.1 (06/21/2012):
 
