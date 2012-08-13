@@ -2,6 +2,12 @@
 
 $widget = $vars['entity'];
 
+// for compatibility with old tagtracker
+if (!$widget->num_display) {
+  $widget->num_display = $widget->tagtrack_count ? $widget->tagtrack_count : 10;
+  $widget->save();
+}
+
 // since we are relying on tags, and not filtering by
 // subtype, we need to make sure that
 // there are actually tags to use, otherwise output nothing
